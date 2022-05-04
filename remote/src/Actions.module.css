@@ -1,0 +1,18 @@
+.actions {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.actions .bckgr {
+    position: absolute;
+    background-color: #fff;
+    opacity: .1;
+    pointer-events: none;
+    transition: 250ms ease-in;
+    border-radius: 5px;
+}

@@ -1,0 +1,8 @@
+.background {
+    position: absolute;
+    background-color: #fff;
+    opacity: .1;
+    pointer-events: none;
+    transition: 250ms ease-in;
+    border-radius: 5px;
+}
